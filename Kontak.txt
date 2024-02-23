@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Komunitas - Forum</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* CSS Style di sini */
+    /* Navbar */
+    .navbar {
+      background-color: #333;
+    }
+    
+    .navbar-brand {
+      color: #fff;
+      font-weight: bold;
+    }
+    
+    .nav-link {
+      color: #fff;
+    }
+    
+    /* Forum */
+    .container {
+      max-width: 800px;
+      padding-top: 50px;
+    }
+    
+    .forum-title {
+      margin-bottom: 30px;
+      color: #333;
+      font-weight: bold;
+    }
+    
+    .forum-thread {
+      margin-bottom: 20px;
+    }
+    
+    .thread-title {
+      color: #333;
+      font-weight: bold;
+    }
+    
+    .thread-content {
+      margin-top: 10px;
+    }
+    
+    .thread-info {
+      color: #777;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Tech Inclusion</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="Beranda.html">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Tentang-Kami.html">Tentang Kami</a>
+        </li>
+		<li class="nav-item">
+        <a class="nav-link" href="Artikel-Kami.html">Artikel Kami</a>
+      </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Forum.html">Forum</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Kontak</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- Konten -->
+  <div class="row mt-5">
+  <div class="col-md-12 mx-auto text-center">
+    <h3>Kontak Kami</h3>
+    <p>Jika Anda memiliki pertanyaan atau ingin bergabung dengan komunitas kami, silakan hubungi kami melalui formulir di bawah ini:</p>
+    <form action="submit_form.php" method="POST">
+      <div class="form-group">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="
+class="form-control" name="message" rows="5" required></textarea>
+</div>
+<button type="submit" class="btn btn-primary">Kirim</button>
+</form>
+
+  </div>
+</div>		
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p>&copy; 2023 Tech Inclusion. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer
+  <!-- JavaScript untuk Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
